@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Selenium Academy">
+<test name = "Selenium Academy Test" preserve-order="true">
+
+
+<parameter name = "firstName" value = "Tom" />
+<parameter name = "middleName" value = "A" />
+<parameter name = "lastName" value = "Jerry" />
+<parameter name = "email" value = "tom@htc.com" />
+<parameter name = "passcode" value = "abc123456" />
+<parameter name = "confirmPasscode" value = "abc123456" />
+<parameter name = "message" value = "Thank you for registering with Madison Island." />
+
+<classes>
+<class name = "com.htc.seleniumacademyPOM.test.RegistrationPageTest" </class>
+<class name = "com.htc.seleniumacademyPOM.test.LoginPageTest" </class>
+</classes>
+</test>
+
+</suite>

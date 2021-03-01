@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="183307" started-at="2021-02-18T23:49:42 IST" finished-at="2021-02-18T23:52:45 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="183307" started-at="2021-02-18T23:49:42 IST" finished-at="2021-02-18T23:52:45 IST">
+      <class name="com.htc.seleniumacademyPOM.test.LoginPageTest">
+        <test-method status="PASS" signature="loadProptiesFile()[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="loadProptiesFile" is-config="true" duration-ms="19" started-at="2021-02-18T23:49:42 IST" finished-at="2021-02-18T23:49:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProptiesFile -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="setup" is-config="true" duration-ms="49222" started-at="2021-02-18T23:49:44 IST" finished-at="2021-02-18T23:50:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testBrowserStackSignin_InValidloginCredential_ShouldErrorInSigninPage([Ljava.lang.String;)[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="testBrowserStackSignin_InValidloginCredential_ShouldErrorInSigninPage" duration-ms="8427" started-at="2021-02-18T23:50:34 IST" data-provider="ecomLogin_invalid" finished-at="2021-02-18T23:50:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2f058b8a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowserStackSignin_InValidloginCredential_ShouldErrorInSigninPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-18T23:50:42 IST" finished-at="2021-02-18T23:50:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="setup" is-config="true" duration-ms="45289" started-at="2021-02-18T23:50:42 IST" finished-at="2021-02-18T23:51:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPage_enterCredantials_shouldLoginSuccessful([Ljava.lang.String;)[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="testLoginPage_enterCredantials_shouldLoginSuccessful" duration-ms="8164" started-at="2021-02-18T23:51:27 IST" data-provider="ecomLogin_valid" finished-at="2021-02-18T23:51:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@756cf158]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage_enterCredantials_shouldLoginSuccessful -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-02-18T23:51:36 IST" finished-at="2021-02-18T23:51:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="setup" is-config="true" duration-ms="58495" started-at="2021-02-18T23:51:36 IST" finished-at="2021-02-18T23:52:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginPage_enterCredantials_shouldLoginSuccessful([Ljava.lang.String;)[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="testLoginPage_enterCredantials_shouldLoginSuccessful" duration-ms="9880" started-at="2021-02-18T23:52:34 IST" data-provider="ecomLogin_valid" finished-at="2021-02-18T23:52:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@3f2ef586]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage_enterCredantials_shouldLoginSuccessful -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.htc.seleniumacademyPOM.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-02-18T23:52:44 IST" finished-at="2021-02-18T23:52:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.htc.seleniumacademyPOM.test.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
