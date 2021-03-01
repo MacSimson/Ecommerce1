@@ -13,8 +13,8 @@
 <parameter name = "message" value = "Thank you for registering with Madison Island." />
 
 <classes>
-<class name = "com.htc.seleniumacademyPOM.test.RegistrationPageTest" </class>
-<class name = "com.htc.seleniumacademyPOM.test.LoginPageTest" </class>
+<class name = "com.htc.seleniumacademyPOM.test.RegistrationPageTest" />
+<class name = "com.htc.seleniumacademyPOM.test.LoginPageTest" />
 </classes>
 </test>
 
