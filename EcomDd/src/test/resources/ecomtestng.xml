@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name = "Selenium Academy">
-<test name = "Selenium Academy Test" preserve-order="true">
+<suite name = "Madison Island">
+<test name = "Selenium Ecom Test" preserve-order="true">
 
 
 <parameter name = "firstName" value = "Tom" />
@@ -13,8 +13,8 @@
 <parameter name = "message" value = "Thank you for registering with Madison Island." />
 
 <classes>
-<class name = "com.htc.seleniumacademyPOM.test.RegistrationPageTest" />
-<class name = "com.htc.seleniumacademyPOM.test.LoginPageTest" />
+<class name ="com.htc.ecom.test.RegistrationPageTest" />
+<class name ="com.htc.ecom.test.LoginPageTest" />
 </classes>
 </test>
 

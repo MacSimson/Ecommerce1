@@ -1,4 +1,4 @@
-package com.htc.seleniumacademyPOM.test;
+package com.htc.ecom.test;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -35,7 +35,7 @@ public class RegistrationPageTest {
 	{
 		data=new Properties();
 		try {
-			FileInputStream fis=new FileInputStream("E:\\java program\\workspace__Selenium_HTC\\EcomDd\\src\\test\\resources\\apps.properties");
+			FileInputStream fis=new FileInputStream("C:\\Users\\Gowtham\\git\\Ecommerce1\\EcomDd\\src\\test\\resources\\apps.properties");
 			data.load(fis);
 		}  catch (IOException e) {
 			// TODO Auto-generated catch block
